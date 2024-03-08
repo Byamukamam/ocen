@@ -1,0 +1,366 @@
+.fullcontainer{
+    width: 100%;
+    display: block;
+}
+
+.top{
+    width: 100%;
+    background-image: url(./images/main4.jpg);
+    height: 70vh;
+    background-size: cover;
+}
+
+.headmain{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(1, 137, 172);
+    position: fixed;
+    z-index: 2;
+    top:0px;
+}
+.headmain a{
+    text-decoration: none;
+}
+.middle{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(14, 112, 80);
+    margin-top: -80px;
+    z-index: 0;
+    position: relative;
+}
+.impact{
+    width: 80%;
+    height: 120px;
+    background-color: rgb(7, 129, 89);
+    margin-left: 10%;
+    margin-top: -150px;
+    position: relative;
+    z-index: 1;
+    display: inline-flex;
+}
+.impact div{
+    width: 33%;
+    height: 120px;
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.impact h6{
+    margin-top: 3px;
+    text-align: center;
+}
+
+.impact h2{
+    font: 1.3rem sans-serif;
+    text-align: center;
+}
+
+.impact h3{
+    font: 1.2rem san-serif;
+    text-align: center;
+    font-size: 1.1rem;
+}
+.impact p{
+    text-align: center;
+    font: 1.2rem sans-serif;
+    margin-top: -10px;
+    color:rgb(3, 109, 136) ;
+}
+.products{
+    width: 100%;
+    background-color:rgb(1, 137, 172);;
+    position: relative;
+    margin-top: -90px;
+    
+}
+
+.schseconda{
+    width: 100%;
+    height: 100px;
+}
+
+.curricular{
+    width: 80%;
+    height: 350px;
+    background-color: rgb(248, 158, 41);
+    margin-top: 20px;
+    margin-left: 20%;
+    border-radius: 200px 0px 0px 200px;
+    
+    
+}
+
+.curricular h2{
+    text-align: center;
+    padding-top: 25px;
+    font: 1.5rem sans-serif;
+    color: aliceblue;
+}
+
+.reinforcement{
+    width: 100%;
+    height: 300px;
+    display: inline-flex;
+   
+    margin-top: 20px
+
+}
+.schsecondary{
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    margin-top: 50px;
+
+}
+.fullservices{
+    width: 100%;
+    background-color: yellowgreen;
+    height: 250px;
+    margin-top: 50px;
+    display: inline-flex;
+}
+
+.reviews{
+    width: 100%;
+    
+    height: 350px;
+    margin-top: 25px;
+    display: block;
+    align-items: center;
+    background-color:white;
+
+}
+
+.reviews .picture{
+    width: 100%;
+    height: 190px;
+    
+    
+    
+}
+.reviews .statement p{
+    font: 1.3rem sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: rgb(1, 108, 158);
+}
+.reviews h2{
+    text-align: center;
+    font: 1.5rem sans-serif;
+    color: rgb(1, 108, 158);
+}
+.headcontent{
+    width: 100%;
+    height: 250px;
+    margin-top: 70px;
+    
+}
+.content{
+    width: 60%;
+    float: right;
+}
+
+.content h2{
+    color: aliceblue;
+    font: 3.5rem sans-serif;
+    font-weight: 700;
+}
+.content p{
+    font: 1.6rem sans-serif;
+    text-align: center;
+    margin-top: -15px;
+    
+    
+}
+.content img{
+    height: 70px;
+
+  
+}
+.menulist{
+    display: inline-flex;
+    width: 20%;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+.menulist a{
+    font: 1.0rem sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    color: aliceblue;
+    
+}
+.sessions{
+    width: 100%;
+    height: 200px;
+    display: inline-flex;
+}
+
+.sessions div{
+    width: 40%;
+}
+.sessions .weekend img{
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+}
+
+.online li{
+    font: 1.2rem sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.reinforcement img{
+    height: 200px;
+    margin-top: 5px;
+}
+.image1 p{
+    text-align: center;
+    font: 1.4rem sans-serif;
+    font-weight: 800;
+}
+.reinforcement .image1{
+    width: 30%;
+    background-color: white;
+    border-radius: 0px 70px 70px 0;
+    
+}
+.reinforcement .details{
+    width: 40%;
+    margin-left: 10%;
+    align-items: center;
+
+}
+
+.details p{
+    font: 1.5rem sans-serif;
+    margin-top: 50px;
+    background-color: rgb(1, 108, 158);
+    padding: 20px 20px;
+    color: white;
+    border-radius: 50px;
+
+}
+.schsecondary h2{
+    font: 1.4rem sans-serif;
+    margin-left: 50px;
+    margin-top: 25px;
+    padding-top: 50px;
+}
+
+.schsecondary ul{
+    margin-left: 100px;
+}
+
+.schsecondary li{
+    font: 1.3rem sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+strong{
+    color: rgb(1, 53, 95);
+}
+
+.fullservices div{
+    width: 23%;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+.fullservices h2{
+    font: 1.8rem sans-serif;
+    text-align: center;
+    color: rgb(1, 53, 95);
+}
+
+.fullservices .context{
+    border-style: solid;
+    border-width: 0px 5px 0px 0px;
+    border-color: white;
+}
+#about div{
+    width: 100%;
+}
+#about h2{
+    font: 1.8rem sans-serif;
+    text-align: center;
+
+}
+
+#about p{
+    font: 1.3rem sans-serif;
+    padding-left: 10%;
+}
+
+.lovlearn {
+    width: 100%;
+    height: 500px;
+    background-image: url(./images/main1.png);
+    background-size: cover;
+}
+.Testimonial {
+    width: 100%;
+    height: 400px;
+    display: inline-flex;
+    
+}
+
+.Testimonial div{
+    width: 23%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(212, 208, 208);
+    border-radius: 25px;
+    
+    
+}
+.Testimonial p{
+    text-align: center;
+    font: 1.1rem sans-serif;
+    padding-left: 5px;
+    padding-right: 5px;
+    color:rgb(0, 95, 139); ;
+}
+
+.footer{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(1, 108, 158);
+    margin-top: 50px;
+}
+
+.footer .left{
+    float: left;
+    width: 20%;
+    margin-left: 5%;
+    height: 230px;
+}
+
+.footer .right{
+    float: right;
+    width: 25%;
+    height: 230px;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.footer .right p{
+    font: 1.2rem sans-serif;
+    color: white;
+}
+
+.footer .left{
+    font: 1.1rem sans-serif;
+    color: white
+}
