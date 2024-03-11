@@ -463,7 +463,7 @@ a{
     padding-left: 25px;
     padding-right: 25px;
     font: 1.2rem sans-serif;
-    color:rgb(2, 97, 141);
+    color:rgb(3, 78, 112);
     font-weight: 400;
     display: none;
 }
@@ -471,5 +471,74 @@ a{
     text-align: center;
 }
 
+.impact{
+    display: none;
+    width: 100%;
+    background-color: rgb(145, 88, 199);
+}
 
+.impact .impact1{
+    width: 100%;
+}
+
+.impact svg{
+    display: none;
+}
+
+.impact h2{
+    font: 1.2rem sans-serif;
+}
+
+.impact p{
+    font: 1.1rem sans-serif;
+    padding-top: 0px;
+}
+.curricular h2{
+    font: 1.2rem sans-serif;
+    font-weight: 300;
+    color:rgb(2, 83, 121);
+    text-align: center;
+}
+.weekend img{
+    display: none;
+}
+.online li{
+    font: 1.0rem sans-serif;
+    padding-top: 5px;
+}
+.reinforcement{
+    margin-top: 25px;
+}
+.reinforcement img{
+    width: 100px;
+    height: 100px;
+}
+
+.image1 p{
+    text-align: center;
+}
+.image1 p{
+    font:1.0rem sans-serif;
+}
+
+.details p{
+    font: 1.3rem sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+    color:rgb(2, 83, 121);
+}
+.schsecondary h2{
+    font: 1.2rem sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+.schsecondary li{
+    font: 1.0rem sans-serif;
+    padding-top: 10px;
+    color: rgb(73, 72, 72);
+
+}
+.schsecondary strong{
+    color:rgb(2, 72, 104); ;
+}
 }
