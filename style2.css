@@ -444,7 +444,7 @@ a{
 }
 
 .headcontent .content{
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 .headcontent .content img{
@@ -453,20 +453,21 @@ a{
 }
 
 .headcontent h2{
-    font:1.6rem sans-serif;
-    font-weight: 900;
+    font:2.5rem sans-serif;
+    font-weight: 370;
     padding-left: 25px;
-    padding-right: 25px;
-    color: white;
+    padding-right: 20px;
+    color: whitesmoke;
     text-align: right;
 }
 .content .subject{
     text-align: center;
     padding-left: 25px;
-    padding-right: 25px;
-    font: 1.2rem sans-serif;
-    color:rgb(2, 97, 141);
+    padding-right: 15px;
+    font: 1.4rem sans-serif;
+    color:rgb(1, 63, 92);
     font-weight: 400;
+    margin-top: -15px;
 }
 
 .content .subjectsub{
