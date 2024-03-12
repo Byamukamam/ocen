@@ -769,7 +769,8 @@ a{
     text-align: center;
 }
 
-.footer .right p{
+.footer a{
+    text-decoration: none;
 }
 
 }
