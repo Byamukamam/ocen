@@ -389,6 +389,9 @@ a{
 .mobsessions{
     display: none;
 }
+.mobologo{
+    display: none;
+}
 }
 
 @media (max-width: 950px){
@@ -402,12 +405,27 @@ a{
 .headmain{
     display: none;
 }
-
-.mobilemenu {
+.topmobi{
     width: 100%;
+    height: 100px;
+}
+.mobilemenu {
+    width: 50%;
     height: 45px;
     position: fixed;
     display: inline-block;
+}
+.mobilogo{
+    width: 60%;
+    height: 100px;
+    float: right;
+}
+.mobologo img{
+    width: 200px;
+}
+.mobilogo p{
+    text-align: right;
+    padding-right: 25px;
 }
 .drop-links{
     display:none;
@@ -444,7 +462,7 @@ a{
 }
 
 .headcontent .content{
-    padding-top: 100px;
+    margin-top: -10px;
 }
 
 .headcontent .content img{
@@ -454,7 +472,7 @@ a{
 
 .headcontent h2{
     font:2.5rem sans-serif;
-    font-weight: 370;
+    font-weight: 600;
     padding-left: 25px;
     padding-right: 20px;
     color: whitesmoke;
@@ -462,12 +480,12 @@ a{
 }
 .content .subject{
     text-align: center;
-    padding-left: 25px;
-    padding-right: 15px;
+    padding-left: 90px;
+    padding-right: 10px;
     font: 1.4rem sans-serif;
     color:rgb(1, 63, 92);
     font-weight: 400;
-    margin-top: -15px;
+    margin-top: 20px;
 }
 
 .content .subjectsub{
@@ -481,6 +499,7 @@ a{
 }
 .content .image3{
     text-align: center;
+    display: none;
 }
 
 .impact{
@@ -772,6 +791,14 @@ a{
 
 .footer a{
     text-decoration: none;
+}
+.line{
+    width: 50%;
+    height: 5px;
+    background-color: white;
+    float: right;
+    margin-right: 30px;
+    margin-top: -15px;
 }
 
 }
