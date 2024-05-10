@@ -16,7 +16,8 @@
 .head-container{
     display: flex;
 }
-.head-logo{
+a{
+    text-decoration: none;
    
 
 }
