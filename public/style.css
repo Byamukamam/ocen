@@ -1,0 +1,284 @@
+@keyframes zoomIn{
+    0%{
+        font-size: 0.9rem;
+    }
+    50% {
+        font-size: 2.8rem;
+    }
+    100%{
+        font-size: 2.6rem;
+    }
+
+}
+@keyframes background1{ from{background-color: none;} to {background-color: white;}}
+@keyframes zoomOut{ from{ transform: translateX(-300px);} to { transform: translateX(0);}}
+@keyframes logoimg{ from{width: 0px; height: 0px;} to { width:400px ; height:130px ;}}
+.head-container{
+    display: flex;
+}
+.head-logo{
+   
+
+}
+
+.head-logo p{
+    margin-bottom: 0px;
+    margin-top: 5px;
+    font: 1.2rem sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:rgb(172, 5, 5) ;
+    
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.head-curriculum{
+    width:25%;
+    margin-bottom: 20px;
+}
+.curriculum-links{
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    z-index: 1;
+
+}
+.hidden-links{
+    display: block;
+}
+.head-nav{
+    width: 45%
+}
+
+header h4{
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    color: white;
+}
+.head-contact{
+    width: 100%;
+    background-color: rgb(0, 71, 112);
+
+}
+.head-curriculum p{
+    font-family: sans-serif;
+}
+.head-nav{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    padding-top: 0px;
+    color: rgb(0, 71, 112);
+    
+}
+.head-nav a{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.head-curriculum button{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    border-width: 0px;
+    
+}
+.mainTop-contianer{
+    width: 100%;
+    display: block;
+    background-image: url(../images/main4.jpg);
+    background-size: cover;
+    height: 65vh
+}
+.mainTop-contianer > div {
+    width: 45%;
+    margin-left: 50%;
+    margin-top: 10px;
+}
+.mainTop-contianer  .left{ 
+    padding-top: 10px;
+}
+.mainTop-contianer h3{
+    animation: zoomIn 0.8s ease-in-out 1s both;
+    font-family: sans-serif;
+    /* font-size: 1.5rem; */
+    /*text-align: right;*/
+    margin-bottom: 0px;
+    font-weight: 600;
+    color:rgb(255, 255, 255);
+    
+}
+.mainTop-contianer p{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 20px;
+    font-weight: 0;
+    color:rgb(143, 0, 0);
+    animation: background1 0.5s ease-in 2s both;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.mainTop-contianer img{
+    padding-left: 15%;
+    padding-top: 5px;
+    margin-top: 0px;
+   animation: logoimg 0.5s ease 2.2s both;
+}
+.success-rate{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(0, 71, 112);
+    display: flex;
+    margin-top: 30px;
+}
+.success-rate > div{
+    width: 15%;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    margin-top: -30px;
+}
+.success-rate p {
+    font: 1.4rem sans-serif;
+    text-align: center;
+    padding-top: 25px;
+    color: rgb(7, 41, 80);
+}
+.mission{
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    display: flex;
+}
+.mission p{
+    color:rgb(61, 54, 40);
+    font: 1.8rem sans-serif;
+    padding-left: 35px;
+    animation: zoomOut 0.5s ease-out 0s both;
+}
+.mission h3{
+    color:rgb(0, 71, 112);
+    font: 2.0rem sans-serif;
+    padding-left: 35px;
+    text-align: center;
+}
+.mission >div{
+    width: 45%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.ourservices{
+    display: flex;
+    margin-bottom: 50px;
+}
+.ourservices .major{
+    width: 20%;
+    height: 20px;
+    background-color: rgb(0, 71, 112);
+    margin-left: 5%;
+    margin-right: 5px;
+}
+.ourservices .first,.second,.third{
+    width: 20%;
+    height: 20px;
+    background-color: rgb(255, 166, 0);
+    margin-right: 10px;
+}
+.ourservices p{
+    font: 1.6rem sans-serif;
+    text-align: center;
+    color: rgb(1, 59, 73);
+}
+.ourcurriculum{
+    display: flex;
+    margin-top: 30px;
+    align-content: center;
+}
+.ourcurriculum p{
+    font:1.3rem sans-serif;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 5px;
+    color: rgb(0, 71, 112);
+}
+.ourcurriculum li{
+    font: 1.6rem sans-serif;
+}
+.ourcurriculum img{
+    width: 200px;
+    height: 200px;
+}
+.ourcurriculum strong{
+    font: 1.8rem sans-serif;
+}
+.whyus{
+    display: flex;
+    margin-top: 120px;
+}
+.whyus > div{
+    margin-left: 5%;
+}
+.whyus h3{
+    color:rgb(0, 71, 112);
+    font: 2.0rem sans-serif; 
+}
+.whyus li{
+    font: 1.4rem sans-serif;
+    color: rgb(61, 72, 88); 
+}
+.whyus strong{
+    color:black;
+}
+.ourapproach {
+    display: flex;
+}
+.ourapproach > div{
+    margin-left: 5%;
+    width: 95%;
+}
+.ourapproach h3{
+    color:rgb(0, 71, 112);
+    font: 2.0rem sans-serif; 
+    text-align: center;
+}
+.ourapproach p{
+    padding-left: 25%;
+    font: 1.4rem sans-serif;
+}
+.aboutus{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.aboutus > div{
+    margin-left: 5%;
+}
+.aboutus h3{
+    color:rgb(0, 71, 112);
+    font: 2.0rem sans-serif; 
+}
+.aboutus p{
+    font: 1.4rem sans-serif;
+}
+.footer {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-color:rgb(0, 71, 112);
+}
+.footer > div{
+    width: 100%;
+    height: 220px;
+    
+}
+footer > p{
+    font: 1.2rem sans-serif;
+    text-align: center;
+    color:rgb(0, 71, 112);
+}
