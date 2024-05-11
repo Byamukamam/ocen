@@ -331,7 +331,8 @@ footer > p{
     border: 0px;
     margin-top: 5px;
     margin-left: 5px;
-    background-color: none;
+    background-color: rgba(255, 255, 255, 0);
+    color:white;
    
 }
 .mobdevice{
@@ -359,7 +360,7 @@ footer > p{
 .mainTop-contianer{
     /* background-image: url(../images/main4.jpg); */
     margin-top: 0px;
-    /* background-color: yellowgreen; */
+    background-color: yellowgreen;
     
 }
 .mainTop-contianer .left{
