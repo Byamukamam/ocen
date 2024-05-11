@@ -422,7 +422,7 @@ footer > p{
     width: 100%;
    background-color: rgb(124, 123, 30);
     background-size: cover;
-    height: 190px;
+    height: 220px;
     display: block;
 }
 .mobile-currbg button{
@@ -434,7 +434,7 @@ footer > p{
     padding-right: 10px;
     padding-left: 10px;
     padding-bottom: 10px;
-    margin-right: 50px;
+    margin-top: 20px;
 }
 .mobile-currbg img{
     width: 330px;
