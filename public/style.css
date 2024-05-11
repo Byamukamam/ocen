@@ -10,9 +10,11 @@
     }
 
 }
+@keyframes mobilezoom{0%{font-size: 0.9rem;} 50%{font-size: 2.4rem;} 100%{font-size: 2.0rem;}}
 @keyframes background1{ from{background-color: none;} to {background-color: white;}}
 @keyframes zoomOut{ from{ transform: translateX(-300px);} to { transform: translateX(0);}}
 @keyframes logoimg{ from{width: 0px; height: 0px;} to { width:400px ; height:130px ;}}
+@media (min-width:1000px){
 .head-container{
     display: flex;
 }
@@ -282,4 +284,197 @@ footer > p{
     font: 1.2rem sans-serif;
     text-align: center;
     color:rgb(0, 71, 112);
+}
+.mobile-button{
+    display: none;
+}
+.mobile-nav{
+    display: none;
+}
+
+}
+
+@media (max-width:1000px){
+.head-nav{
+    display: none;
+    
+}
+.curriculum-links {
+    display: none;
+}
+.head-logo{
+    display: none;
+}
+.mobile-nav{
+    display: none;
+    width: 100%;
+    background-color: rgb(213, 213, 216);
+    position: absolute;
+    height: 60vh;
+}
+.mobile-button{
+    border: 0px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.mobdevice{
+    display: block;
+}
+.mobile-nav  p{
+    font: 1.2rem sans-serif;
+    text-align: left;
+}
+.head-contact{
+    width: 100%;
+    background-color: rgb(0, 71, 112);
+    font:1.2rem sans-serif;
+    color:white;
+    font-weight: 100;
+}
+.head-contact h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.mainTop-contianer{
+    background-image: url(../images/main4.jpg);
+    margin-top: 0px;
+}
+.mainTop-contianer .left{
+    animation: mobilezoom 0.8s ease 0s both;
+    font-family: sans-serif;
+    color:white;
+    padding-bottom: 0px;
+    
+
+}
+.mainTop-contianer .right p{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    font-weight: 0;
+    color:rgb(143, 0, 0);
+    /*animation: background1 0.5s ease-in 2s both;*/
+    padding-top: 0px;
+    padding-bottom: 5px;
+
+}
+.mainTop-contianer .right img{
+    width: 400px;
+    height: 130px;
+    padding-left: 15%;
+   
+}
+.ourcurriculum {
+   display: flex;
+   font: 1.0rem sans-serif;
+   color:rgb(0, 71, 112);
+   
+}
+.ourcurriculum p{
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: center;
+}
+.success-rate {
+    display: flex;
+    background-color:rgb(0, 71, 112) ;
+}
+.success-rate > div{
+    width: 25%;
+    margin-left: auto;
+}
+.success-rate p{
+    font: 1.2rem sans-serif;
+    color:white;
+}
+.ourapproach{
+    display: block;
+}
+.mission h3{
+    color: rgb(0, 71, 112);
+    font: 1.4rem sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+.mission p{
+    font: 1.2rem sans-serif;
+    padding-left: 5%;
+    padding-bottom: 30px;
+    color: rgb(85, 70, 51);
+}
+.ourservices{
+    display: block;
+    align-items: center;
+    
+}
+.ourservices > div{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.ourservices p{
+    color:rgb(0, 71, 112);
+    font: 1.2rem sans-serif;
+}
+.ourservices .major p{
+    color: brown;
+    font: 1.4rem sans-serif;
+}
+.whyus h3{
+    color: rgb(0, 71, 112);
+    font: 1.4rem sans-serif;
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 5px;
+    
+}
+.whyus li{
+    color: rgb(85, 70, 51);
+    font: 1.2rem sans-serif;
+}
+.ourapproach h3{
+    color: rgb(0, 71, 112);
+    font: 1.4rem sans-serif;
+    padding-top: 20px;
+    text-align: center;
+    padding-left: 5px;
+    padding-bottom: 20px;
+}
+.ourapproach p{
+    color: rgb(17, 17, 17);
+    font: 1.2rem sans-serif;
+    padding-left: 5%;
+}
+.aboutus h3{
+    color: rgb(0, 71, 112);
+    font: 1.4rem sans-serif;
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 5px;
+    padding-bottom: 20px;
+}
+.aboutus p{
+    color: rgb(17, 17, 17);
+    font: 1.2rem sans-serif;
+    padding-left: 5%;
+}
+.footer{
+    width: 100%;
+    display: block;
+    height: 250px;
+    background-color:rgb(0, 71, 112);
+}
+footer p{
+    color: rgb(0, 71, 112);
+    font: 1.2rem sans-serif;
+    text-align: center;
+
+}
+
 }
