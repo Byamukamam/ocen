@@ -291,6 +291,18 @@ footer > p{
 .mobile-nav{
     display: none;
 }
+.ourcurriculum1{
+    display: none;
+}
+.ourcurriculum2{
+    display: none;
+}
+.mobcurr{
+    display: none;
+}
+.mission .desktop{
+    display: none;
+}
 
 }
 
@@ -330,6 +342,8 @@ footer > p{
     font:1.2rem sans-serif;
     color:white;
     font-weight: 100;
+    padding-top: 0px;
+    margin-top: 0px;
 }
 .head-contact h4{
     padding-top: 10px;
@@ -338,14 +352,18 @@ footer > p{
     margin-bottom: 0px;
 }
 .mainTop-contianer{
-    background-image: url(../images/main4.jpg);
+    /* background-image: url(../images/main4.jpg); */
     margin-top: 0px;
+    background-color: yellowgreen;
+    
 }
 .mainTop-contianer .left{
-    animation: mobilezoom 0.8s ease 0s both;
+    font-size: 2.0rem;
     font-family: sans-serif;
-    color:white;
-    padding-bottom: 0px;
+    color:rgb(10, 77, 122);
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
     
 
 }
@@ -355,40 +373,65 @@ footer > p{
     font-size: 1.4rem;
     margin-top: 10px;
     font-weight: 0;
-    color:rgb(143, 0, 0);
+    color:rgb(10, 77, 122);
     /*animation: background1 0.5s ease-in 2s both;*/
     padding-top: 0px;
     padding-bottom: 5px;
+    display: none;
 
 }
 .mainTop-contianer .right img{
     width: 350px;
     height: 130px;
     padding-left: 15%;
+    display: none;
    
 }
-.ourcurriculum {
+.ourcurriculum{
+    display: none;
+}
+.ourcurriculum1 {
    display: flex;
+   width: 100%;
    font: 1.0rem sans-serif;
    color:rgb(0, 71, 112);
    
 }
-.ourcurriculum p{
-    padding-left: 2px;
-    padding-right: 2px;
+.ourcurriculum1 p{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.ourcurriculum2{
+    display: flex;
+    width: 100%;
+    font: 1.0rem sans-serif;
+    color:rgb(0, 71, 112);
+}
+.ourcurriculum2 p{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.mobcurr{
+    color: rgb(117, 4, 51);
+    font: 1.4rem sans-serif;
     text-align: center;
 }
 .success-rate {
     display: flex;
     background-color:rgb(0, 71, 112) ;
+    margin-top: 30px;
 }
 .success-rate > div{
     width: 25%;
     margin-left: auto;
+    margin-right: auto;
 }
 .success-rate p{
-    font: 1.2rem sans-serif;
+    font: 1.0rem sans-serif;
     color:white;
+    text-align: center;
 }
 .ourapproach{
     display: block;
@@ -400,11 +443,15 @@ footer > p{
     text-align: center;
     font-weight: 600;
 }
-.mission p{
+.mission .desktop{
+    display: none;
+}
+.mission .mobile{
     font: 1.2rem sans-serif;
     padding-left: 5%;
     padding-bottom: 30px;
     color: rgb(85, 70, 51);
+    text-align: center;
 }
 .ourservices{
     display: block;
@@ -436,7 +483,7 @@ footer > p{
 }
 .whyus li{
     color: rgb(85, 70, 51);
-    font: 1.2rem sans-serif;
+    font: 1.0rem sans-serif;
 }
 .ourapproach h3{
     color: rgb(0, 71, 112);
@@ -448,7 +495,7 @@ footer > p{
 }
 .ourapproach p{
     color: rgb(17, 17, 17);
-    font: 1.2rem sans-serif;
+    font: 1.0rem sans-serif;
     padding-left: 5%;
 }
 .aboutus h3{
@@ -461,7 +508,7 @@ footer > p{
 }
 .aboutus p{
     color: rgb(17, 17, 17);
-    font: 1.2rem sans-serif;
+    font: 1.0rem sans-serif;
     padding-left: 5%;
 }
 .footer{
